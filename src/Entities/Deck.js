@@ -12,7 +12,7 @@ class Deck {
     });
   }
 
-  dispatchCards(size) {
+  dispatchCards(size = 2) {
     if (this.cards.length < 5) {
       this.cards = [];
       this.suits.forEach(suit => {
